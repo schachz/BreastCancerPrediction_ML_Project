@@ -1,7 +1,7 @@
 Breast Cancer Prediction Project
 ================
-Zach Schachter
-Revised July 20, 2023
+### Zach Schachter
+### Revised July 20, 2023
 
 ``` r
 knitr::opts_chunk$set(echo = TRUE)
@@ -55,7 +55,7 @@ Below are the details of the variables
   1.  1=Healthy controls
   2.  2=Patients
 
-## Loading in data and previewing it in a matrix.
+### Loading in data and previewing it in a matrix.
 
 ``` r
 df <- read.table("C:/Users/schac/Downloads/cancer.txt", header = T, sep = ",")
