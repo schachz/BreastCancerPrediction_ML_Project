@@ -3,22 +3,6 @@ Breast Cancer Prediction Project
 ### Zach Schachter
 ### Revised July 20, 2023
 
-``` r
-knitr::opts_chunk$set(echo = TRUE)
-options(stringsAsFactors = F) ## to prevent numeric values as factors, if you use read.csv
-
-library(rstudioapi)
-library(ggplot2)
-library(dplyr)
-```
-
-
-
-``` r
-library(tidyr)
-library(tibble)
-library(stringr)
-```
 
 ## Data descriptions:
 
