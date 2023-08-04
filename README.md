@@ -12,16 +12,7 @@ library(ggplot2)
 library(dplyr)
 ```
 
-    ## 
-    ## Attaching package: 'dplyr'
 
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
 
 ``` r
 library(tidyr)
@@ -158,8 +149,7 @@ ggplot(df, aes(x = Adiponectin)) +
 
     ## Warning: The dot-dot notation (`..density..`) was deprecated in ggplot2 3.4.0.
     ## ℹ Please use `after_stat(density)` instead.
-
-![](CancerPrediction_Project_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![000012](https://github.com/schachz/BreastCancerPrediction_ML_Project/assets/100746204/d592ded5-3ab1-4b4a-a9bd-1fe089990529)
 
 ### Part 4.
 
@@ -240,8 +230,8 @@ ggplot(df, aes(x=Glucose , y=Insulin, color=group)) +
 ```
 
     ## `geom_smooth()` using formula = 'y ~ x'
+![img2](https://github.com/schachz/BreastCancerPrediction_ML_Project/assets/100746204/2efba7ab-f480-4483-bc12-ca533685b447)
 
-![](CancerPrediction_Project_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 ### Part 6.
 
@@ -257,8 +247,9 @@ ggplot(df, aes(x=group, y=HOMA, color=group)) +
   facet_wrap(~Age_cat) + 
   theme(axis.title.y = element_text(colour = "red"))
 ```
+![img3](https://github.com/schachz/BreastCancerPrediction_ML_Project/assets/100746204/008a26a9-1cab-458c-b85f-7481883a237d)
 
-![](CancerPrediction_Project_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+
 
 ### Part 7.
 
